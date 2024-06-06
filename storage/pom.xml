@@ -10,4 +10,12 @@
 
     <artifactId>storage</artifactId>
     <version>1.0.0</version>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub marykuo Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/marykuo/java-utility-libraries</url>
+        </repository>
+    </distributionManagement>
 </project>
