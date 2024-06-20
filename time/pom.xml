@@ -9,8 +9,16 @@
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>storage</artifactId>
+    <artifactId>time</artifactId>
     <version>1.0.0</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
     <distributionManagement>
         <repository>
